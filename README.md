@@ -75,6 +75,5 @@ Ao iniciar o programa, você será apresentado a um menu com diversas opções. 
 ## Licença
 
 Este programa é distribuído sob a **GNU General Public License v3.0**. Consulte o arquivo `LICENSE.txt` para mais detalhes.
-
 ```
 
