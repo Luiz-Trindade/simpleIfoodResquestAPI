@@ -1,4 +1,3 @@
-```markdown
 # S.I.R.A ou:
 
  ███████╗██╗███╗   ███╗██████╗ ██╗     ███████╗             
@@ -33,8 +32,8 @@ Este programa de gerenciamento de produtos foi desenvolvido por **Luiz Gabriel M
 
 ## Capturas de Tela
 
-![Tela Inicial](#)
-![Menu Principal](#)
+![Tela Inicial]("imagens/img1.png")
+![Menu Principal]("imagens/img2.png")
 
 ## Funcionalidades
 
@@ -75,5 +74,3 @@ Ao iniciar o programa, você será apresentado a um menu com diversas opções. 
 ## Licença
 
 Este programa é distribuído sob a **GNU General Public License v3.0**. Consulte o arquivo `LICENSE.txt` para mais detalhes.
-```
-
