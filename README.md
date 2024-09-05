@@ -1,5 +1,6 @@
 # S.I.R.A ou:
 
+```bash
   ███████╗██╗███╗   ███╗██████╗ ██╗     ███████╗             
   ██╔════╝██║████╗ ████║██╔══██╗██║     ██╔════╝             
   ███████╗██║██╔████╔██║██████╔╝██║     █████╗               
@@ -27,6 +28,7 @@
   ██╔══██║██╔═══╝ ██║                                        
   ██║  ██║██║     ██║                                        
   ╚═╝  ╚═╝╚═╝     ╚═╝                                        
+```
 
 Este programa de gerenciamento de produtos foi desenvolvido por **Luiz Gabriel Magalhães Trindade** e é licenciado sob a **GNU General Public License v3.0**. O objetivo deste software é facilitar o gerenciamento de produtos e catálogos de merchants, proporcionando uma interface simplificada e eficiente para as seguintes operações:
 
