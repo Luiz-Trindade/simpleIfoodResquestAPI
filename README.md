@@ -62,15 +62,15 @@ Ao iniciar o programa, você será apresentado a um menu com diversas opções. 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/sistema-gerenciamento-produtos.git
+   git clone ttps://github.com/Luiz-Trindade/simpleIfoodResquestAPI.git
    ```
 2. Acesse o diretório do projeto:
    ```bash
-   cd sistema-gerenciamento-produtos
+   cd simpleIfoodRequestAPI
    ```
 3. Execute o programa:
    ```bash
-   python3 main.py
+   python3 simpleIfoodRequestAPI.py
    ```
 
 ## Licença
