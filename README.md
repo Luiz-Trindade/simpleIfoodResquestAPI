@@ -1,3 +1,5 @@
+![GPL ICON](https://www.gnu.org/graphics/gplv3-127x51.png)
+
 # S.I.R.A ou:
 
 ```bash
