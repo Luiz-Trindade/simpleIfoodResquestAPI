@@ -62,7 +62,7 @@ def login():
     global clientId, clientSecret
     success = False
 
-    while !(success):
+    while success != True:
         clientId        = input("Informe o clientID: ")
         clientSecret    = input("Informe o clientSecret: ")
         
@@ -412,6 +412,7 @@ def main():
 
     # clientId        = input("Informe o clientID: ")
     # clientSecret    = input("Informe o clientSecret: ")
+    login()
     limparTela()
 
     while True:
