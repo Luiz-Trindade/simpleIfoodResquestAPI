@@ -57,6 +57,18 @@ accessToken     = ""
 merchantID      = ""
 catalogID       = ""
 
+#Função de login
+def login():
+    global clientId, clientSecret
+    success = False
+
+    while !(success):
+        clientId        = input("Informe o clientID: ")
+        clientSecret    = input("Informe o clientSecret: ")
+        
+        if getAccessToken() == True:
+            success = True
+
 #Função para conseguir o merchant ID
 def getMerchantList():
     # URL da API
@@ -130,10 +142,12 @@ def getAccessToken():
         #print("Resposta:", response.json())
         responseJson = response.json()
         accessToken = responseJson.get("accessToken")
+        return True
 
     else:
         print(f"Falha na autenticação. Código de status: {response.status_code}")
         print("Resposta:", response.json())
+        return False
 
 #Função para adicionar um produto novo
 def adicionarProduto():
@@ -396,8 +410,8 @@ def limparTela():
 def main():
     global clientId, clientSecret
 
-    clientId        = input("Informe o clientID: ")
-    clientSecret    = input("Informe o clientSecret: ")
+    # clientId        = input("Informe o clientID: ")
+    # clientSecret    = input("Informe o clientSecret: ")
     limparTela()
 
     while True:
